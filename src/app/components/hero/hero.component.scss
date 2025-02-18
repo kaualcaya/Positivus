@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.hero-content{
+    max-width: 500px;
+}
+
+.hero-content h1{
+    font-family: "Space Grotesk", serif;
+    font-weight: 700;
+    font-size: 60px;
+    margin: 0;
+}
+
+.hero-content p{
+    font-family: "Space Grotesk", serif;
+    font-size: 20px;
+}
+
+.image-hero{
+    width: 100%;
+}
+
+.button-hero{
+    background-color: #191A23;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: "Space Grotesk", serif;
+}
+
+.hero-brands{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    border-top: 1px solid #ddd;
+}
+
+.hero-services{
+    font-family: "Space Grotesk", serif;
+    font-size: 13px;
+    display: flex;
+    align-items: center;
+    padding:10px;
+    gap: 50px;
+    max-width: 650px;
+    margin: 40px;
+}
+
+.hero-services h1{
+    background-color: #B9FF66 ;
+    color: black;
+    border: none;
+    padding: 7px 14px;
+    border-radius: 10px;
+    
+}

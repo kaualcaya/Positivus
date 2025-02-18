@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=swap');
+// ---------
+// LOGOTIPO
+// ---------
+
+.header{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    padding: 7px;
+    justify-content: space-between;
+
+}
+
+.logotipo {
+    margin: 55px;
+    width: 200px;
+}
+
+.lista{
+    display: flex;
+    list-style: none;
+    gap: 45px;
+    padding: 0;
+    margin-left: 100px;
+}
+
+
+.itens-list{
+    font-family: "Space Grotesk", serif;
+    font-weight:  400;
+    font-size: 20px;
+    cursor: pointer;
+}
+.botao{
+  background-color: #FFFFFF;
+  border: 0.5px solid #222222;
+  border-radius: 14px;
+  color: #222222;
+  cursor: pointer;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-family: "Space Grotesk", serif;
+  font-weight:400;
+  font-size: 20px;
+  margin-left: 40px;
+}
+
+
+
+@media (max-width: 800px) {
+    .header {
+        flex-direction: column; /* Empilha os elementos */
+        align-items: center; /* Centraliza */
+    }
+
+    .lista {
+        flex-direction: column; /* Transforma a lista em coluna */
+        align-items: center;
+        gap: 15px; /* Menor espaçamento */
+        margin-left: 0; /* Remove margem para centralizar */
+    }
+    
+    .botao {
+        margin-left: 0; /* Centraliza o botão */
+        margin-top: 10px; /* Adiciona um espaçamento abaixo do menu */
+        border: none ;
+        border-bottom: solid black;
+        border-radius: 0px;
+        padding: 7px;
+    }
+
+    .logotipo{
+        margin: 20px;
+        width: 150px;
+    }
+}

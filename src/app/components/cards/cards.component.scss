@@ -1,0 +1,38 @@
+
+
+.service-card{
+    width: 500px;
+    border: solid 1px;
+    border-radius: 45px;
+    border-bottom: 6px solid #191A23;
+    padding: 40px 30px;
+}
+
+.service-card-content{
+    display: flex;
+    flex-direction: column;
+}
+
+.service-title{
+    font-family: "Space Grotesk", serif;
+    font-weight: 500;
+    background-color: #B9FF66;
+    display: inline-block;
+    align-items: start;
+    
+}
+
+.learn-more{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+  
+
+    // &:hover {
+    //   transform: scale(1.05);
+    // }
+  
+    // &.dark {
+    //   background: #232323;
+    //   color: white;
